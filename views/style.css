@@ -1,0 +1,84 @@
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+/* important functionality */
+.strikeThrough {
+  text-decoration: line-through;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+  background-color: black;
+  color: maroon;
+  margin-bottom: 1rem;
+}
+.line {
+  text-align: left;
+  font-size: 3rem;
+}
+body {
+  background-image: url(shanghai.jpg);
+  background-size: 110%;
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  font-family: "Beau Rivage", cursive;
+}
+input {
+  width: 70%;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+button {
+  width: 30%;
+  font-size: 1.7rem;
+  border-radius: 10%;
+  color: white;
+  background-color: black;
+  border: 0;
+  margin-bottom: 1rem;
+  min-width: 95px;
+}
+section {
+  height: fit-content;
+  width: 28%;
+  min-width: 350px;
+  text-align: center;
+  background-color: gray;
+  min-height: 300px;
+  border-radius: 10%;
+  margin-left: 5%;
+}
+p {
+  font-size: 7rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-family: "Beau Rivage", cursive;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+@media all and (max-width: 1050px) {
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 700px) {
+  section{
+    margin: auto;
+    min-width: 80%;
+    
+  }
+  p{
+    text-align: center;
+    font-size: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+  }
+}
