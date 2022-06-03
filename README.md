@@ -7,7 +7,7 @@ In order to delete a to-do item, the user must first click and cross out the ite
 # <strong>How It's Made:</strong>
 <strong>Tech used</strong>: HTML, CSS, JavaScript, Node.js, MongoDB, Express
 
-This application stores data on MongoDB then retrieves it in order to display it to the user.
+This application stores data on MongoDB then retrieves it in order to display it to the user. Express is used as a framework in order to simplify node.   
 
 # <strong>Lessons Learned:</strong>
 I am practicing incorporating the back end into things I thought could only be front end. For example, I was able to use the server to update the to-do item. 
