@@ -1,5 +1,5 @@
 Use this web application to write down your daily list of to dos. You don't have to worry about accidentally deleting them, as the data is stored on an online database! 
-In order to delet a to-do, the user must first click and cross out the item, then click "Clear Task". 
+In order to delete a to-do item, the user must first click and cross out the item, then click "Clear Task". 
 
 ![to-do](https://user-images.githubusercontent.com/98935149/171926488-db003985-b45c-4b4e-8ed4-4d7524e706dd.jpg)
 
