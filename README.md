@@ -10,4 +10,4 @@ In order to delete a to-do item, the user must first click and cross out the ite
 This application stores data on MongoDB then retrieves it in order to display it to the user. Express is used as a framework in order to simplify node.   
 
 # <strong>Lessons Learned:</strong>
-I am practicing incorporating the back end into things I thought could only be front end. For example, I was able to use the server to update the to-do item. 
+I am practicing incorporating the back end into all sorts of mechanisms. For example, I was able to filter through certain to-do items on Mongo in order to delete them, similarly to how I was doing that on the front end.  
