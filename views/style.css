@@ -2,10 +2,6 @@
   font-size: 62.5%;
   box-sizing: border-box;
 }
-/* important functionality */
-.strikeThrough {
-  text-decoration: line-through;
-}
 h1 {
   font-size: 3rem;
   margin-top: 0;
@@ -16,6 +12,13 @@ h1 {
 .line {
   text-align: left;
   font-size: 3rem;
+  text-decoration: line-through;
+  list-style: none;
+}
+li{
+  text-align: left;
+  font-size: 3rem;
+  list-style: none;
 }
 body {
   background-image: url(shanghai.jpg);

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/5cfd8c0f6b.js" crossorigin="anonymous"></script>
   <title>To-Do List</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,13 +20,16 @@
       <button type="submit" id ="button">Submit</button>
     </form>
       <!-- <button type="button" id="byeByeList">Clear All</button> -->
-      <button type="button" id="byeByeTask">Clear Task</button>
+      <button type="button" id="byeByeList">Clear Task</button>
       <ul id ="ul">
-    <% for (let [key, indivToDo] of Object.entries(todos)){ %> 
+    <% for (let indivToDo of todos){ %> 
+      <% if (indivToDo.isCompleted === true){ %> 
       <!-- used to do data parsing, any logic thats not directly outputting to dom  -->
       <li class="line" data-id="<%=indivToDo.id%>"><%= indivToDo.name %></li>
+      <% }else{ %>
+      <li data-id="<%=indivToDo.id%>"><%= indivToDo.name %></li>
       <!-- use this syntax to output ot dom  -->
-    <% } %>
+    <% }} %>
   </ul>
     </section>
   <script type="text/javascript" src="client.js"></script>
